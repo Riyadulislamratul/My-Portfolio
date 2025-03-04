@@ -1,0 +1,177 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(3, 3, 37);
+    color: white;
+}
+
+.left {
+    font-size: 2.5rem;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 70px;
+    background-color: rgb(24, 24, 90);
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 23px;
+    list-style: none;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+nav ul li a:hover {
+    color: rgb(95, 95, 199);
+}
+
+nav img {
+    top: 11px;
+    position: relative;
+    height: 96px;
+}
+
+main hr {
+    border: 0;
+    height: 1px;
+    background-color: rgb(170, 107, 228);
+    margin: 40px 84px;
+}
+
+.firstsection {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 130px 0;
+}
+
+.firstsection>div {
+    width: 30%;
+}
+
+.leftsection {
+    font-size: 2.5rem;
+    margin: 30px;
+}
+
+.rightsection img {
+    width: 90%;
+}
+
+.purple {
+    color: rgb(170, 107, 228);
+}
+
+#element {
+    color: rgb(170, 107, 228);
+}
+
+.secondsection {
+    max-width: 80vw;
+    margin: auto;
+    height: 80vh;
+}
+
+.secondsection h1 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+.text-gray {
+    color: gray;
+}
+
+.secondsection .box {
+    background: white;
+    width: 70vw;
+    height: 2px;
+    margin: 56px 0;
+    display: flex;
+}
+
+.secondsection .vertical {
+    height: 93px;
+    width: 1px;
+    background-color: white;
+    margin: 4px 132px
+}
+
+.image-top {
+    position: relative;
+    top: -35px;
+    left: -9px;
+    width: 23px;
+}
+
+
+.vertical-title {
+    position: relative;
+    top: 75px;
+    width: 150px;
+
+}
+
+.vertival-dese {
+    position: relative;
+    top: 86px;
+    width: 150px;
+    font-size: 10px;
+    color: gray;
+}
+
+/* footer section */
+footer {
+    background-color: rgb(24 24 90);
+    height: 229px;
+    color: grey;
+}
+
+.footer {
+    display: flex;
+    padding: 36px 122px;
+    justify-content: space-evenly;
+}
+
+.footer img {
+    width: 200px;
+   margin-top: 20px;
+}
+
+.footer h4 {
+    color: white;
+    font-size: 14px;
+    margin: 20px -4px
+}
+.footer ul {
+    list-style: none;
+}
+
+.footer a {
+    color: gray;
+    text-decoration: none;
+}
+
+.footer a:hover {
+    color: rgb(95, 95, 199);
+}
+.copyright {
+    color: white;
+    font-size: 14px;
+    margin-top: -21px;
+    text-align: center;
+    height: 20px;
+}
